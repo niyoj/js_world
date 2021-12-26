@@ -1,0 +1,5 @@
+#ignoring swap files
+*.swp
+
+#ignoring vscode configuration folder
+.vscode/
