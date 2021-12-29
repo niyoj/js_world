@@ -3,3 +3,6 @@
 
 #ignoring vscode configuration folder
 .vscode/
+
+#ignoring some extra files
+pdf/
