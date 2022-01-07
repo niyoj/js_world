@@ -36,9 +36,9 @@ Lexical strucutre of programming langauge is the set of elementary rules that sp
 true    //boolean
 null    //absence of an object 
 ````
-
+More would be covered on (Chapter 3)[https://github.com/niyoj/js_world/master/03-types-values-and-variables]
 # Identfiers and Reserved Words
-- Identifiers are the names that are used to name the constants, variables, functions, properties or used to porvide labels for looping statements.
+- Identifiers are the names that are used to name the constants, variables, functions, properties or used to provide labels for looping statements.
 - A JavaScript identifier must start from a letter, an underscore (_), or a dollar sign ($).
 - Subsequent characters can be letters, underscore, digits, or a dollar sign.
 - Reserved words are the words that has some meaning already associated with the programming language and are the part of the programming language.
@@ -86,8 +86,10 @@ console.log(café);      //outpurs 200
 - But, you can also omit the semicolon if those two statements are on different lines or, at the end of the program, or, if the next token is a curly braces "}".
 - For example;
 ````javascript
-let a = 100; b = 100; // this line is legal as two statements are separated by a semi-colon
-let c = 1000 d = 200  // this line is illegal
+let a = 100; let b = 100; // this line is legal as two statements are separated by a semi-colon
+let c = 1000 let d = 200  // this line is illegal
+let e = 500               // this is legal
+let f = 200               // this is legal
 ````
 - Also, JavaScript doesnot always marks the end of a line as end of a statement like;
 ````javascript
